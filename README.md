@@ -37,7 +37,7 @@ A calm production app is a sign of good engineering.
 
 ## Selected Repositories
 
-These repos represent how I approach real-world mobile systems: not demos, not tutorials, but things built to be used.
+These repos represent how I approach real-world mobile systems.
 
 ### 📱 Recorded Truth  
 **Flutter • Speech-to-Text • NLP • Cloud Functions**
