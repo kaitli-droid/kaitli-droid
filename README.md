@@ -41,6 +41,7 @@ These repos represent how I approach real-world mobile systems.
 
 ### 📱 Recorded Truth  
 **Flutter • Speech-to-Text • NLP • Cloud Functions**
+🔗 https://github.com/kaitli-droid/recorded-truth-mobile
 
 A voice-driven therapeutic journaling app designed for users experiencing emotional or physical distress.
 
@@ -54,6 +55,7 @@ Focus areas:
 
 ### 🎥 Yohpal Mobile App  
 **Flutter • Media Streaming • Real-time APIs**
+🔗 https://github.com/kaitli-droid/yohpal-mobile-app
 
 A short-form social video platform with TikTok-style feeds and interactions.
 
@@ -67,6 +69,7 @@ Focus areas:
 
 ### 🛠 Talent Finder  
 **Flutter • Location Services • Real-time Requests**
+🔗 https://github.com/kaitli-droid/talent-finder-flutter
 
 An on-demand services marketplace connecting users to skilled workers.
 
@@ -80,6 +83,7 @@ Focus areas:
 
 ### 📡 Bingwa2Lite  
 **React • SMS Parsing • USSD Automation**
+🔗 https://github.com/kaitli-droid/bingwa2lite-automation
 
 An automation system for airtime and bundle purchases driven by M-Pesa SMS messages.
 
