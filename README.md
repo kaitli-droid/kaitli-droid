@@ -1,6 +1,6 @@
 # James Karanja
 
-Senior mobile engineer building reliable apps that survive real users.
+Senior mobile engineer building reliable apps and systems that survive real users.
 
 Nairobi, Kenya  
 Flutter • React Native • Android • iOS  
@@ -13,11 +13,11 @@ LinkedIn: https://www.linkedin.com/in/james-karanja-177413247
 
 ## What I do
 
-I design and build mobile applications that actually ship.
+I design and build mobile applications to ship.
 
-For the last 7+ years I’ve worked across Android and iOS, primarily with **Flutter** and **React Native**, taking products from early idea to production release and long-term maintenance. I’m comfortable owning the full mobile lifecycle: architecture, UI/UX, backend integration, store releases, and post-launch fixes when reality shows up.
+For the last 7+ years I’ve worked across Android and iOS, primarily with **Flutter** and **React Native**, taking products from early idea to production release and long-term maintenance. I’m comfortable owning the full mobile lifecycle: architecture, UI/UX, backend integration, store releases, and post-launch fixes.
 
-I’ve worked on fintech, healthtech, social platforms, and service marketplaces. Different domains, same priorities: stability, performance, and code that doesn’t fight you later.
+I’ve worked on fintech, healthtech, social platforms, and service marketplaces. Different domains with the same priorities: stability, performance, and problem solving.
 
 ---
 
@@ -30,8 +30,6 @@ That usually means:
 - fast startup times and smooth UI interactions
 - explicit error handling instead of silent failures
 - release pipelines that are repeatable and boring
-
-A calm production app is a sign of good engineering.
 
 ---
 
