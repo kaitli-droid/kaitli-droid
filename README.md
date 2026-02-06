@@ -37,45 +37,47 @@ That usually means:
 
 These repos represent how I approach real-world mobile systems.
 
-### 📱 Recorded Truth  
+### 📱 Mobile Systems
+
+#### Recorded Truth  
 **Flutter • Speech-to-Text • NLP • Cloud Functions**
 🔗 https://github.com/kaitli-droid/recorded-truth-mobile
 
-A voice-driven therapeutic journaling app designed for users experiencing emotional or physical distress.
+A voice-driven therapeutic journaling application designed for users in distress.
 
 Focus areas:
-- audio capture and processing
-- speech-to-text and NLP pipelines
-- accessibility-focused UI
+- audio capture and processing pipelines
+- speech-to-text and NLP integration
+- accessibility-first UI decisions
 - privacy-conscious data handling
 
 ---
 
-### 🎥 Yohpal Mobile App  
+#### 🎥 Yohpal  
 **Flutter • Media Streaming • Real-time APIs**
 🔗 https://github.com/kaitli-droid/yohpal-mobile-app
 
-A short-form social video platform with TikTok-style feeds and interactions.
+A short-form social video platform with TikTok-style feeds.
 
 Focus areas:
 - media-heavy UI performance
 - video loading and playback optimization
-- real-time engagement features
+- real-time engagement flows
 - scalable feed architecture
 
 ---
 
-### 🛠 Talent Finder  
+#### 🛠 Talent Finder  
 **Flutter • Location Services • Real-time Requests**
 🔗 https://github.com/kaitli-droid/talent-finder-flutter
 
-An on-demand services marketplace connecting users to skilled workers.
+An on-demand services marketplace connecting users with skilled workers.
 
 Focus areas:
 - location-based matching
 - real-time service requests
-- booking and task lifecycle flows
-- resilient networking under poor connectivity
+- booking and task lifecycles
+- resilience under poor connectivity
 
 ---
 
@@ -93,26 +95,54 @@ Focus areas:
 
 ---
 
+### ⚙️ Backend & Infrastructure Systems
+
+#### 🚪 Go API Gateway  
+**Go • JWT • Redis • Prometheus**
+
+A production-style API gateway focused on authentication, rate limiting, observability, and operational correctness.
+
+Focus areas:
+- request lifecycle control
+- token-bucket rate limiting
+- fault-tolerant gateway design
+- metrics-driven visibility
+
+---
+
+#### 🧱 Resilient Gateway & Failure Handling  
+**Go • Circuit Breakers • Retries • Timeouts**
+
+A systems-level project exploring how gateways behave under failure.
+
+Focus areas:
+- retries with exponential backoff
+- circuit breaker state transitions
+- failure injection and recovery
+- observable system behavior under load
+
+---
+
 ### 🔧 Supporting & Experimental Repos
 
-You’ll also find:
-- mobile architecture experiments
-- state management patterns
+Smaller repositories exploring:
+- architecture patterns
+- state management strategies
 - backend integration prototypes
-- CI/CD and build tooling
-- internal utilities built to support production apps
+- CI/CD tooling and automation
+- internal utilities used to support production apps
 
-These are usually where I test ideas before they graduate into products.
+These are typically where ideas are validated before moving into larger systems.
 
 ---
 
 ## Tools I reach for
 
-Flutter and React Native for most mobile work, Kotlin and Swift when native control matters. Backend integrations are typically REST or GraphQL APIs backed by Node.js, Firebase, and AWS.
+Flutter and React Native for most mobile work, Kotlin and Swift when native control matters. Backend integrations are typically REST or GraphQL APIs backed by Node.js, Go, Firebase, and AWS.
 
 I rely on CI/CD, automated builds, and versioned releases because manual processes don’t scale and memory is unreliable.
 
-Security is part of the design phase, not a patch. I’ve worked directly with OAuth2, JWT, authentication flows, and secure API design.
+Security is part of the design phase. I’ve worked directly with OAuth2, JWT, authentication flows, and secure API design.
 
 ---
 
@@ -126,7 +156,7 @@ I’m comfortable being hands-on in code and equally comfortable coordinating re
 
 ## Outside the commit history
 
-I’m interested in systems that sit at the intersection of mobile, cloud, and automation. I enjoy turning messy requirements into dependable systems and simplifying complexity without hiding it.
+I’m interested in systems that are an amalgamation of mobile, cloud, and automation. I enjoy turning messy requirements into dependable systems and simplifying complexity.
 
 ---
 
