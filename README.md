@@ -37,7 +37,7 @@ That usually means:
 
 These repos represent how I approach real-world mobile systems.
 
-### 📱 Mobile Systems
+### Mobile Systems
 
 #### Recorded Truth  
 **Flutter • Speech-to-Text • NLP • Cloud Functions**
@@ -53,7 +53,7 @@ Focus areas:
 
 ---
 
-#### 🎥 Yohpal  
+#### Yohpal  
 **Flutter • Media Streaming • Real-time APIs**
 🔗 https://github.com/kaitli-droid/yohpal-mobile-app
 
@@ -67,7 +67,7 @@ Focus areas:
 
 ---
 
-#### 🛠 Talent Finder  
+#### Talent Finder  
 **Flutter • Location Services • Real-time Requests**
 🔗 https://github.com/kaitli-droid/talent-finder-flutter
 
@@ -81,7 +81,7 @@ Focus areas:
 
 ---
 
-### 📡 Bingwa2Lite  
+### Bingwa2Lite  
 **React • SMS Parsing • USSD Automation**
 🔗 https://github.com/kaitli-droid/bingwa2lite-automation
 
@@ -95,9 +95,9 @@ Focus areas:
 
 ---
 
-### ⚙️ Backend & Infrastructure Systems
+### Backend & Infrastructure Systems
 
-#### 🚪 Go API Gateway  
+#### Go API Gateway  
 **Go • JWT • Redis • Prometheus**
 
 A production-style API gateway focused on authentication, rate limiting, observability, and operational correctness.
@@ -110,7 +110,7 @@ Focus areas:
 
 ---
 
-#### 🧱 Resilient Gateway & Failure Handling  
+#### Resilient Gateway & Failure Handling  
 **Go • Circuit Breakers • Retries • Timeouts**
 
 A systems-level project exploring how gateways behave under failure.
