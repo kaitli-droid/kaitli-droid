@@ -123,6 +123,26 @@ Focus areas:
 
 ---
 
+### Fintech Ledger Engine
+**Go • PostgreSQL • Docker**
+
+A production-style double-entry accounting system built in Go.
+
+This project implements core financial infrastructure concepts including:
+
+* Double-entry ledger invariants
+* Multi-currency FX transactions
+* Transaction idempotency
+* Row-level locking to prevent race conditions
+* Immutable ledger entries with reversal-based corrections
+* Audit replay to rebuild balances from transaction history
+
+The system models the type of accounting engine used inside fintech platforms, exchanges, and payment processors.
+
+Repository: https://github.com/kaitli-droid/fintech-ledger
+
+---
+
 ### 🔧 Supporting & Experimental Repos
 
 Smaller repositories exploring:
