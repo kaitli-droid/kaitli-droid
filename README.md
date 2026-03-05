@@ -139,7 +139,7 @@ This project implements core financial infrastructure concepts including:
 
 The system models the type of accounting engine used inside fintech platforms, exchanges, and payment processors.
 
-Repository: https://github.com/kaitli-droid/fintech-ledger
+Repository: https://github.com/kaitli-droid/Finetech-Ledger-Engine
 
 ---
 
