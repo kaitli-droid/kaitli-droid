@@ -1,187 +1,230 @@
 # James Karanja
 
-Senior mobile engineer building reliable apps and systems that survive real users.
+Backend Engineer • Systems Builder • Mobile Engineer
 
-Nairobi, Kenya  
-Flutter • React Native • Android • iOS  
-Cloud-backed, performance-obsessed, release-tested
+I build reliable systems across backend infrastructure, financial platforms, and production mobile applications.
 
-GitHub: https://github.com/kaitli-droid  
-LinkedIn: https://www.linkedin.com/in/james-karanja-177413247  
+**Location:** Nairobi, Kenya  
+**Stack:** Go • PostgreSQL • SQL • Docker • REST APIs • Flutter • React Native  
+**Focus:** Concurrency-safe systems • Transaction integrity • Production-grade APIs  
 
----
-
-## What I do
-
-I design and build mobile applications to ship.
-
-For the last 7+ years I’ve worked across Android and iOS, primarily with **Flutter** and **React Native**, taking products from early idea to production release and long-term maintenance. I’m comfortable owning the full mobile lifecycle: architecture, UI/UX, backend integration, store releases, and post-launch fixes.
-
-I’ve worked on fintech, healthtech, social platforms, and service marketplaces. Different domains with the same priorities: stability, performance, and problem solving.
+**GitHub:** https://github.com/kaitli-droid  
+**LinkedIn:** https://www.linkedin.com/in/james-karanja-177413247  
 
 ---
 
-## How I think about mobile
+## About
 
-I optimize for systems that behave predictably under pressure.
+I design and ship systems that remain correct under real-world pressure.
 
-That usually means:
-- clear state management and clean architecture
-- fast startup times and smooth UI interactions
-- explicit error handling instead of silent failures
-- release pipelines that are repeatable and boring
+My work spans **backend engineering, financial systems, infrastructure design, and mobile product development**, with a strong focus on correctness, performance, and operational reliability.
 
----
+Over the last 7+ years, I’ve built across backend APIs, financial transaction systems, concurrency-safe data platforms, mobile applications for Android and iOS, automation workflows, and production infrastructure with observability layers.
 
-## Selected Repositories
-
-These repos represent how I approach real-world mobile systems.
-
-### Mobile Systems
-
-#### Recorded Truth  
-**Flutter • Speech-to-Text • NLP • Cloud Functions**
-🔗 https://github.com/kaitli-droid/recorded-truth-mobile
-
-A voice-driven therapeutic journaling application designed for users in distress.
-
-Focus areas:
-- audio capture and processing pipelines
-- speech-to-text and NLP integration
-- accessibility-first UI decisions
-- privacy-conscious data handling
+I am particularly interested in **high-integrity backend systems** where correctness matters; payments, wallets, ledgers, gateways, transactional services, and distributed workflows.
 
 ---
 
-#### Yohpal  
-**Flutter • Media Streaming • Real-time APIs**
-🔗 https://github.com/kaitli-droid/yohpal-mobile-app
+## Engineering Philosophy
 
-A short-form social video platform with TikTok-style feeds.
+I optimize for systems that behave predictably at scale.
 
-Focus areas:
-- media-heavy UI performance
-- video loading and playback optimization
-- real-time engagement flows
-- scalable feed architecture
+This usually means explicit invariants, deterministic service boundaries, failure-aware architecture, idempotent operations, observable production systems, and repeatable deployment pipelines.
+
+I care deeply about building systems that are boring in production.
+
+Reliable software should be uneventful.
 
 ---
 
-#### Talent Finder  
-**Flutter • Location Services • Real-time Requests**
-🔗 https://github.com/kaitli-droid/talent-finder-flutter
+## Core Backend Stack
 
-An on-demand services marketplace connecting users with skilled workers.
+My current backend stack centers around:
 
-Focus areas:
-- location-based matching
-- real-time service requests
-- booking and task lifecycles
-- resilience under poor connectivity
+- **Go (Golang)** for API and systems engineering
+- **PostgreSQL** for transactional consistency
+- **SQL** with row-level locking and ACID workflows
+- **Docker** for reproducible environments
+- **Swagger / OpenAPI** for API contracts
+- **JWT / Bearer authentication**
+- **Redis** for caching and rate control
+- **Prometheus** for observability
+- **REST APIs with JSON**
 
----
+Key backend concepts I actively work with include:
 
-### Bingwa2Lite  
-**React • SMS Parsing • USSD Automation**
-🔗 https://github.com/kaitli-droid/bingwa2lite-automation
-
-An automation system for airtime and bundle purchases driven by M-Pesa SMS messages.
-
-Focus areas:
-- SMS parsing and data extraction
-- deterministic automation logic
-- fault-tolerant transaction handling
-- user-configurable workflows
-
----
-
-### Backend & Infrastructure Systems
-
-#### Go API Gateway  
-**Go • JWT • Redis • Prometheus**
-
-A production-style API gateway focused on authentication, rate limiting, observability, and operational correctness.
-
-Focus areas:
-- request lifecycle control
-- token-bucket rate limiting
-- fault-tolerant gateway design
-- metrics-driven visibility
+- transaction boundaries
+- concurrency control
+- `SELECT FOR UPDATE`
+- idempotency keys
+- retry and timeout strategies
+- circuit breakers
+- audit-grade event history
+- service failure recovery
 
 ---
 
-#### Resilient Gateway & Failure Handling  
-**Go • Circuit Breakers • Retries • Timeouts**
+## Selected Backend & Systems Repositories
 
-A systems-level project exploring how gateways behave under failure.
-
-Focus areas:
-- retries with exponential backoff
-- circuit breaker state transitions
-- failure injection and recovery
-- observable system behavior under load
-
----
+These repositories represent how I approach production engineering.
 
 ### Fintech Ledger Engine
-**Go • PostgreSQL • Docker**
 
-A production-style double-entry accounting system built in Go.
+**Go • PostgreSQL • Docker • Swagger**
 
-This project implements core financial infrastructure concepts including:
+Production-style double-entry accounting and wallet infrastructure built in Go.
 
-* Double-entry ledger invariants
-* Multi-currency FX transactions
-* Transaction idempotency
-* Row-level locking to prevent race conditions
-* Immutable ledger entries with reversal-based corrections
-* Audit replay to rebuild balances from transaction history
+**Repository:** https://github.com/kaitli-droid/Finetech-Ledger-Engine  
+**Swagger:** https://finetech-ledger.onrender.com/swagger/index.html#
 
-The system models the type of accounting engine used inside fintech platforms, exchanges, and payment processors.
+This system models the core infrastructure used inside fintech platforms, payment processors, digital wallets, exchanges, and internal accounting systems.
 
-Repository: https://github.com/kaitli-droid/Finetech-Ledger-Engine
+Key engineering concepts include:
 
----
+- double-entry ledger invariants
+- multi-currency FX workflows
+- immutable ledger entries
+- reversal-based corrections
+- idempotent transaction references
+- row-level locking
+- race-condition prevention
+- audit replay for balance reconstruction
 
-### 🔧 Supporting & Experimental Repos
-
-Smaller repositories exploring:
-- architecture patterns
-- state management strategies
-- backend integration prototypes
-- CI/CD tooling and automation
-- internal utilities used to support production apps
-
-These are typically where ideas are validated before moving into larger systems.
+This project strongly reflects how real financial systems maintain integrity under concurrency.
 
 ---
 
-## Tools I reach for
+### API Gateway & Infrastructure Patterns
 
-Flutter and React Native for most mobile work, Kotlin and Swift when native control matters. Backend integrations are typically REST or GraphQL APIs backed by Node.js, Go, Firebase, and AWS.
+**Go • Redis • JWT • Prometheus**
 
-I rely on CI/CD, automated builds, and versioned releases because manual processes don’t scale and memory is unreliable.
+A production-style API gateway focused on operational correctness and resilience.
 
-Security is part of the design phase. I’ve worked directly with OAuth2, JWT, authentication flows, and secure API design.
+Focus areas include:
+
+- authentication middleware
+- token validation
+- rate limiting
+- request tracing
+- metrics instrumentation
+- fault isolation
+- service timeout controls
 
 ---
 
-## How I work with teams
+### Failure Recovery & Resilience Systems
 
-I’ve led mobile-focused teams, run sprints, reviewed code, and mentored developers. I value clear ownership, small feedback loops, and shipping in increments instead of waiting for perfection.
+**Go • Retries • Circuit Breakers • Backoff**
 
-I’m comfortable being hands-on in code and equally comfortable coordinating releases, store submissions, and production rollouts.
+A systems engineering project focused on service behavior during partial failures.
+
+Focus areas include:
+
+- exponential retry strategies
+- timeout propagation
+- circuit breaker transitions
+- fallback logic
+- failure injection testing
+- resilience benchmarking
 
 ---
 
-## Outside the commit history
+## Product Engineering & Mobile Systems
 
-I’m interested in systems that are an amalgamation of mobile, cloud, and automation. I enjoy turning messy requirements into dependable systems and simplifying complexity.
+While backend engineering is now a major focus, I continue to build production mobile systems.
+
+### Recorded Truth
+
+**Flutter • NLP • Cloud Functions**
+
+A voice-first therapeutic journaling platform.
+
+Focus areas:
+
+- speech pipelines
+- NLP integration
+- privacy-first architecture
+- resilient mobile UX flows
+
+---
+
+### Yohpal
+
+**Flutter • Media Streaming • Real-time APIs**
+
+A short-form video social platform.
+
+Focus areas:
+
+- high-performance feed rendering
+- streaming optimization
+- scalable engagement flows
+- real-time API integration
+
+---
+
+### Talent Finder
+
+**Flutter • Real-time Systems • Geolocation**
+
+An on-demand service marketplace platform.
+
+Focus areas:
+
+- live request workflows
+- booking lifecycle state machines
+- location matching systems
+- poor-network resilience
+
+---
+
+## Systems Concepts I Actively Work With
+
+My engineering work increasingly focuses on:
+
+- backend architecture
+- financial systems design
+- concurrency-safe SQL workflows
+- service reliability patterns
+- API lifecycle engineering
+- infrastructure correctness
+- mobile + backend integration
+
+I enjoy building systems where architecture decisions directly affect reliability and correctness.
+
+---
+
+## Current Growth Areas
+
+My current focus areas include:
+
+- advanced Go backend engineering
+- distributed systems patterns
+- event-driven architectures
+- financial infrastructure systems
+- fault-tolerant services
+- infrastructure observability
+- scheduler / planner architectures
+
+---
+
+## Team & Engineering Culture
+
+I work comfortably across:
+
+- backend development
+- architecture reviews
+- sprint leadership
+- code reviews
+- release management
+- mentoring developers
+
+I value clear ownership, fast feedback loops, and systems that scale beyond individual contributors.
 
 ---
 
 ## Contact
 
-GitHub: https://github.com/kaitli-droid  
-LinkedIn: https://www.linkedin.com/in/james-karanja-177413247  
-Location: Nairobi, Kenya
+**GitHub:** https://github.com/kaitli-droid  
+**LinkedIn:** https://www.linkedin.com/in/james-karanja-177413247  
+**Location:** Nairobi, Kenya
