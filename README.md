@@ -15,8 +15,6 @@ I build reliable systems across backend infrastructure, financial platforms, and
 
 ## About
 
-I design and ship systems that remain correct under real-world pressure.
-
 My work spans **backend engineering, financial systems, infrastructure design, and mobile product development**, with a strong focus on correctness, performance, and operational reliability.
 
 Over the last 7+ years, I’ve built across backend APIs, financial transaction systems, concurrency-safe data platforms, mobile applications for Android and iOS, automation workflows, and production infrastructure with observability layers.
@@ -55,7 +53,6 @@ Key backend concepts I actively work with include:
 
 - transaction boundaries
 - concurrency control
-- `SELECT FOR UPDATE`
 - idempotency keys
 - retry and timeout strategies
 - circuit breakers
